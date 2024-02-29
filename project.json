@@ -1,0 +1,135 @@
+{
+  "name": "ReuploadIDIPRS",
+  "description": "",
+  "main": "CheckexistingQueueItems.xaml",
+  "dependencies": {
+    "UiPath.DataService.Activities": "[23.10.0]",
+    "UiPath.Excel.Activities": "[2.16.1]",
+    "UiPath.Mail.Activities": "[1.18.2]",
+    "UiPath.System.Activities": "[22.10.4]",
+    "UiPath.Testing.Activities": "[22.10.1]",
+    "UiPath.UIAutomation.Activities": "[22.10.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "DefaultTenant",
+      "namespace": "ReuploadIDIPRS",
+      "uniqueReference": "mX/gVPyDaNYOLo0/SMw+k4Di/+htL07ho6CM/pU81aE="
+    }
+  ],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.10.5.0",
+  "projectVersion": "1.0.3",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e31df868-387f-49a3-b778-282a628dbbae",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5881eb00-dc7d-4f78-9caf-163869acc085",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f5573345-ff56-4519-a850-40ad5d4bcaf4",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8f226dd5-d157-40dc-8a2a-51200d75ca6b",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3fff1327-0841-4eb2-9f0f-2022b373ddac",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\ProcessTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a029a7ee-0dd7-4287-8d82-e1c425025456",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "a73d1c9c-1105-454f-ac49-dbdef0121663",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "CheckexistingQueueItems.xaml",
+      "uniqueId": "81b15910-3cb2-46ba-8cce-18dcd5aec991",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "UpdateEmptyDocType.xaml",
+      "uniqueId": "0632708d-f1e5-43f8-87bd-689400739296",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "UpdateLOB.xaml",
+      "uniqueId": "c7183d8b-313b-4aca-a09b-10a5094b85cb",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "PullQueryReport.xaml",
+      "uniqueId": "472b2494-db34-469d-91be-f96675624a3a",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
